@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int n,i,arr[n],sum=0,median;
+    int n,i,arr[n],sum=0,med;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
@@ -11,7 +11,7 @@ int main()
     {
     sum=sum+arr[i];
     }
-    median=sum/n;
-    printf("%d",median);
+    med=sum/n;
+    printf("%d",med);
     return 0;
 }
